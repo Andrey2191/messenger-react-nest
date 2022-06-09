@@ -14,6 +14,13 @@ a {
 .content {
   width: 1200px;
   margin: 0 auto;
+  padding-top: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.App {
+  background-color: rgb(236, 236, 236);
 }
 
 /* ------------------------------------POST---------------- */
@@ -58,4 +65,43 @@ a {
 
 .news-img {
   width: 70%;
+}
+
+/* ---------------------------MESSAGE------------------- */
+
+.message__page {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.message__content {
+  width: 930px;
+}
+
+.message__sidebar {
+  display: flex;
+  align-items: center;
+  width: 260px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.message__sidebar-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.message__sidebar-content {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(221, 221, 221);
+}
+
+.sidebar-avatar-img {
+  border-radius: 50%;
+}
+
+.message__sidebar-avatar {
+  margin-right: 30px;
 }
