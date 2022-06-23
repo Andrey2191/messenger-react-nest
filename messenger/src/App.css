@@ -119,3 +119,18 @@ a {
   flex-direction: column;
   align-items: center;
 }
+
+/* ---------------------------ERROR-------------------------- */
+
+.form-message {
+  font-size: 13px;
+  text-align: center;
+}
+
+.invalid {
+  color: rgb(255, 0, 0);
+}
+
+.valid {
+  color: rgb(4, 139, 4);
+}
